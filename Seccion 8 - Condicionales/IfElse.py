@@ -1,4 +1,4 @@
-edad = 22
+edad = int(input("Ingrese su edad: "))
 
 if edad >= 18:
     print("Tu eres mayor de edad. Puedes tener DNI")
