@@ -12,9 +12,11 @@ def get_choices():
         "player" : player_choice,
         "computer" : computer_choice
     }
+        
     return choices
 
 def get_winner(choices):
+    print("You chose: {}, computer chose: {}".format(choices["player"], choices["computer"]))
     if(choices["player"] == choices["computer"]):
         return "tie"
     elif(choices["player"] == "rock" and choices["computer"] == "scissors"):
@@ -26,7 +28,7 @@ def get_winner(choices):
     else:
         return "computer"
 
-
+    
 winner = get_winner(get_choices())
-
 print("And the winner is... {}!".format(winner))
+
