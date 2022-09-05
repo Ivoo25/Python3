@@ -1,0 +1,102 @@
+header{
+    background-color: gray;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+main{
+    background-color: white;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+nav{
+    background-color: gray;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+section{
+    background-color: gray;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#Primero{
+    background-color: gray;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#Segundo{
+    background-color: gray;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#Tercero{
+    background-color: gray;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+aside{
+    background-color: gray;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+footer{
+    background-color: gray;
+    border: 5px chartreuse solid;
+    width: 770px;
+    height: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+}
