@@ -34,7 +34,7 @@ def pedir_letra():
     abecedario = 'abcdefghijklmnñopqrstuvwxyz'
 
     while not es_valida:
-        letra_elegida = input("Elige una letra: ")
+        letra_elegida = input("Elige una letra: ").lower()
         if letra_elegida in abecedario and len(letra_elegida) == 1:
             es_valida = True
             if letra_elegida in letras_correctas or letra_elegida in letras_incorrectas:
