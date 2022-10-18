@@ -1,9 +1,9 @@
-from random import choice
+import random as rnd
 import random_spanish_words as rsw
 
 letras_correctas = []
 letras_incorrectas = []
-intentos = 6
+intentos = rnd.randint(5, 10)
 aciertos = 0
 juego_terminado = False
 
@@ -22,7 +22,7 @@ def normalize(s):
 
 def elegir_palabra():
     """Elijo una palabra random de la libreria que exporte"""
-    palabra_elegida = normalize(choice(rsw.wordList))
+    palabra_elegida = normalize(rnd.choice(rsw.wordList))
     letras_unicas = len(set(palabra_elegida))
     #print(set(palabra_elegida))
     return palabra_elegida, letras_unicas
